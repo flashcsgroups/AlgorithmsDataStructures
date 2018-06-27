@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AlgorithmsDataStructures.Algorithms.Recursive.Fibonachy</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,10 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Recursive\Fibonachy.cs" />
     <Compile Include="Algorithms\Simple Sort\BubbleSort.cs" />
     <Compile Include="Algorithms\Simple Sort\InsertionSort.cs" />
     <Compile Include="Algorithms\Simple Sort\SelectionSort.cs" />
-    <Compile Include="Algorithms\Sorting.cs" />
+    <Compile Include="Algorithms\Simple Sort\Sorting.cs" />
     <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -23,6 +23,7 @@ namespace AlgorithmsDataStructures.Algorithms
         /// Инкапсулирует сортируемый массив.
         /// </summary>
         int[] MyArray { get; set; }
+        //myint myint = 0;
 
         #endregion
 
