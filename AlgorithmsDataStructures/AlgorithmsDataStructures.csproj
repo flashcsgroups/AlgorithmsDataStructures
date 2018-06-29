@@ -16,7 +16,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
+    <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AlgorithmsDataStructures.Algorithms.Recursive.Fibonachy</StartupObject>
+    <StartupObject>AlgorithmsDataStructures.Algorithms.HacherRank.DiagonalDifference</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\HacherRank\DiagonalDifference.cs" />
     <Compile Include="Algorithms\Recursive\Fibonachy.cs" />
     <Compile Include="Algorithms\Simple Sort\BubbleSort.cs" />
     <Compile Include="Algorithms\Simple Sort\InsertionSort.cs" />
