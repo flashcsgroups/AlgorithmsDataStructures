@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .a {
+        fill: #dfe4e9;
+      }
+
+      .b {
+        fill: #ccd3db;
+      }
+    </style>
+  </defs>
+  <title>webnar-notice-icn</title>
+  <g>
+    <circle class="a" cx="28" cy="28" r="28"/>
+    <path class="b" d="M21,18.89V37.11a1.84,1.84,0,0,0,2.72,1.65L40,29.65a1.91,1.91,0,0,0,0-3.31L23.72,17.23A1.84,1.84,0,0,0,21,18.89Z"/>
+  </g>
+</svg>
